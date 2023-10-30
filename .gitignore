@@ -1,5 +1,8 @@
 HELP.md
 target/
+*.class
+target/**
+.mtj.tmp/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
@@ -18,6 +21,14 @@ target/
 *.iws
 *.iml
 *.ipr
+*.jar
+*.war
+*.ear
+**/*.imi
+.idea/**
+out
+gen
+application.properties
 
 ### NetBeans ###
 /nbproject/private/
